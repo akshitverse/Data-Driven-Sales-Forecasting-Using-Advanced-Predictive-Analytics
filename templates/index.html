@@ -67,6 +67,9 @@
     <div class="container">
         <h2>Sales Prediction</h2>
         <form id="salesForm" action="/predict" method="post">
+            <label for="OrderDate">Order Date:</label>
+            <input type="date" name="OrderDate" id="orderDate" required>
+
             <label for="Quantity">Quantity:</label>
             <input type="number" name="Quantity" id="quantity" required>
 
